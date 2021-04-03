@@ -38,3 +38,19 @@
     letter-spacing: 0.1px;
     color: #252B42;
 }
+
+/* 
+=====================================
+    Navigation
+=====================================
+*/
+
+.navigation {
+    display: inline-block;
+    width: 280px;
+    height: 24px;
+}
+
+li {
+    display: inline;
+}
