@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap');
 
 body {
+    font-family: "Montserrat";
     max-width: 1440px;
 }
 
@@ -123,4 +124,35 @@ li {
 .blok_information:last-child>h3,
 .blok_information:last-child>p {
     color: #fff;
+}
+
+/* 
+=====================================
+    Buttons
+=====================================
+*/
+
+.btn {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 37px;
+    padding: 10px 36px;
+}
+
+.get_quote--btn {
+    background-color: #FFA62B;
+    width: 185px;
+    height: 48px;
+}
+
+.get_quote--btn a{
+    color: #fff;
+}
+
+.learn_more--btn {
+    height: 48px;
+    width: 154px;
+    border: 1px solid #00A0C1;
 }
