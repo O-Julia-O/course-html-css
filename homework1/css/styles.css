@@ -9,6 +9,7 @@ h1 {
     font-size: 60px;
     line-height: 80px;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -139,7 +140,12 @@ li>a {
 .conteiner h1 {
     display: block;
     margin: 20px 0;
-    width: 80%;
+    width: 60%;
+}
+
+.conteiner h4 {
+    display: block;
+    width: 45%;
 }
 
 /* 
