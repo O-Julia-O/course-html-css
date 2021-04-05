@@ -84,7 +84,7 @@ p {
 
 .logo {
     float: left;
-    padding-left: 100px;
+    margin-left: 100px;
     width: 106px;
     height: 32px;
 }
@@ -108,7 +108,8 @@ p {
 .navigation {
     display: block;
     float: left;
-    padding-left: 10%;
+    margin-left: 2%;
+    margin-top: 3px;
 }
 
 .burger--menu {
@@ -121,7 +122,7 @@ li {
 }
 
 li>a {
-    padding-left: 25px;
+    margin-left: 25px;
 }
 
 /* 
