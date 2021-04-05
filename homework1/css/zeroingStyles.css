@@ -5,8 +5,6 @@
 	border: 0;
 }
 *,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 :focus,:active{outline: none;}
@@ -18,9 +16,6 @@ html,body{
 	font-size: 100%;
 	line-height: 1;
 	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
 }
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
