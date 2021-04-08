@@ -193,8 +193,10 @@ p {
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
 
-.product__item:hover {
+.product__item:hover,
+.product__item:hover p {
     background-color: #00A0C1;
+    color: #fff
 }
 
 .product__item:hover img {
@@ -211,6 +213,10 @@ p {
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
+}
+
+.product__item p {
+    font-size: 14px;
 }
 
 /* 
