@@ -31,6 +31,13 @@ p {
     line-height: 30px;
 }
 
+.container {
+    margin: 0 auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+
 /* 
 =====================================
     HEADER
@@ -52,7 +59,7 @@ p {
 
 .logo {
     float: left;
-    width: 80%;
+    width: 14%;
 }
 
 /* 
@@ -63,7 +70,7 @@ p {
 
 .navigation {
     float: left;
-    width: 80%;
+    width: 30%;
 }
 
 .navigation__list {
@@ -80,6 +87,10 @@ p {
     font-size: 14px;
     line-height: 24px;
     text-decoration: none;
+}
+
+.navigation__list--item:hover a {
+    border-bottom: 1px solid #737373;
 }
 
 /* 
@@ -125,11 +136,14 @@ p {
 */
 
 .description h1 {
+    width: 38%;
     text-transform: uppercase;
 }
 
 .description p {
+    margin-top: 35px;
     margin-bottom: 35px;
+    width: 27%;
 }
 
 /* buttons */
@@ -152,6 +166,12 @@ p {
     border-radius: 37px;
 }
 
+.description__buttons .btn:hover {
+    color: #fff;
+    background-color: #FFA62B;
+    border: 1px solid #FFA62B;
+}
+
 /* 
 =====================================
     PRODUCT
@@ -166,11 +186,19 @@ p {
 
 .product__item {
     float: left;
-    width: 30%;
+    width: 31%;
     margin-right: 30px;
     padding: 40px 70px 35px 40px;
     background-color: #fff;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.product__item:hover {
+    background-color: #00A0C1;
+}
+
+.product__item:hover img {
+    background-color: #FFF;
 }
 
 .product__item img {
