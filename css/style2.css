@@ -273,3 +273,36 @@ p {
     font-size: 16px;
     line-height: 24px;
 }
+
+.statistic::after {
+    clear: both;
+}
+
+/* 
+=====================================
+    NEWS_BLOCK
+===================================== 
+*/
+
+.news--block {
+    float: left;
+    width: 17%;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.news--block p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+.news--block .h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #252B42;
+    padding-bottom: 10px;
+}
