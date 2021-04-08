@@ -238,3 +238,38 @@ p {
 .characteristics {
     padding-top: 195px;
 }
+
+.title p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/* 
+=====================================
+    STATISTIC
+===================================== 
+*/
+.statistic {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.statistic--block {
+    float: left;
+    background-color: #fff;
+    width: 16%;
+    text-align: center;
+    padding: 30px;
+    margin-left: 10%;
+}
+
+.statistic--block:first-child {
+    margin-left: 5%;
+}
+
+.statistic--block p {
+    font-size: 16px;
+    line-height: 24px;
+}
