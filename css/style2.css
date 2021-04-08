@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap');
+
+body {
+    font-family: "Montserrat";
+    background-color: #FAFAFA;
+    color: #252B42;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 57px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+p {
+    color: #737373;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+
+/* 
+=====================================
+    HEADER
+=====================================
+*/
+
+.header {
+    position: absolute;
+    width: 100%;
+    padding-top: 36px;
+    overflow: auto;
+}
+
+/* 
+=====================================
+    LOGO
+===================================== 
+*/
+
+.logo {
+    float: left;
+    width: 14%;
+}
+
+/* 
+=====================================
+    NAVIGATION
+=====================================
+*/
+
+.navigation {
+    float: left;
+    width: 30%;
+}
+
+.navigation__list {
+    
+}
+
+.navigation__list--item {
+    display: inline-block;
+}
+
+.navigation__list--item a {
+    padding: 0 10px;
+    color: #737373;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.navigation__list--item:hover a {
+    border-bottom: 1px solid #737373;
+}
+
+/* 
+=====================================
+    BURGER MENU
+===================================== 
+*/
+
+.burger {
+    float: right;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.burger__item {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: #000;
+}
+
+/* 
+=====================================
+    BLOCK ABOUT
+=====================================
+*/
+
+.about {
+    clear: both;
+    padding-top: 115px;
+    background-image: url('../img/background-Small.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 
+=====================================
+    DESCRIPTION
+=====================================
+*/
+
+.description h1 {
+    width: 38%;
+    text-transform: uppercase;
+}
+
+.description p {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 27%;
+}
+
+/* buttons */
+
+.description__buttons {
+    margin-bottom: 80px;
+    overflow: auto;
+}
+
+.description__buttons .btn {
+    float: left;
+    padding: 10px 36px;
+    margin-right: 10px;
+    color: #00a0c1;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    border: 1px solid #00a0c1;
+    border-radius: 37px;
+}
+
+.description__buttons .btn:hover {
+    color: #fff;
+    background-color: #FFA62B;
+    border: 1px solid #FFA62B;
+}
+
+/* 
+=====================================
+    PRODUCT
+===================================== 
+*/
+
+.product {
+    overflow: auto;
+    margin-bottom: -50px;
+    padding: 25px 0;
+}
+
+.product__item {
+    float: left;
+    width: 31%;
+    margin-right: 30px;
+    padding: 40px 70px 35px 40px;
+    background-color: #fff;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.product__item:hover {
+    background-color: #00A0C1;
+}
+
+.product__item:hover img {
+    background-color: #FFF;
+}
+
+.product__item img {
+    max-height: 41px;
+    margin-bottom: 15px;
+}
+
+.product__item h3 {
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* 
+=====================================
+    PARAGRAPH
+===================================== 
+*/
+
+.paragraph {
+    padding: 125px 0 80px;
+}
+
+.paragraph .title {
+    max-width: 470px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.characteristics {
+    padding-top: 195px;
+}
