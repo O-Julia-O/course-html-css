@@ -306,3 +306,39 @@ p {
     color: #252B42;
     padding-bottom: 10px;
 }
+
+/* 
+=====================================
+    VIDEO_BLOCK
+===================================== 
+*/
+
+.video {
+    position: relative;
+    float: left;
+    padding-top: 10px;
+}
+
+.video--cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+}
+
+.video--btn {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.video::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.video--item {
+    float: right;
+    width: 40%;
+}
