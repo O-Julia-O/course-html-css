@@ -91,9 +91,11 @@ p {
     font-size: 14px;
     line-height: 24px;
     text-decoration: none;
+    border-bottom: 0px solid #fff;
 }
 
 .navigation__list--item:hover a {
+    transition: all 1s linear;
     border-bottom: 1px solid #737373;
 }
 
@@ -223,7 +225,8 @@ p {
 }
 
 .product__item:hover .icon {
-  filter: brightness(0) invert(1);;
+    transition: filter 0.1s ease-in 0s;
+    filter: brightness(0) invert(1);;
 }
 
 /* third element in products */
