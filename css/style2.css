@@ -206,11 +206,15 @@ p {
 .product__item:hover,
 .product__item:hover p {
     background-color: #00A0C1;
-    color: #fff
+    color: #fff;
 }
 
-.product__item:hover img {
-    background-color: #FFF;
+.product__item:hover .icon {
+  filter: brightness(0) invert(1);;
+}
+
+.product__item:last-child .icon--third {
+    margin-bottom: 49px;
 }
 
 .product__item img {
