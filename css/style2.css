@@ -33,9 +33,13 @@ p {
 
 .container {
     margin: 0 auto;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 20px;
+    max-width: 1440px;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 /* 
@@ -48,7 +52,7 @@ p {
     position: absolute;
     width: 100%;
     padding-top: 36px;
-    overflow: auto;
+    padding-left: 100px;
 }
 
 /* 
@@ -104,6 +108,7 @@ p {
     width: 20px;
     height: 20px;
     border: none;
+    margin-right: 100px;
     background-color: transparent;
 }
 
@@ -127,6 +132,7 @@ p {
     background-image: url('../img/background-Small.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 45px;
 }
 
 /* 
@@ -226,7 +232,8 @@ p {
 */
 
 .paragraph {
-    padding: 125px 0 80px;
+    padding: 100px 0 80px;
+    max-width: 1440px;
 }
 
 .paragraph .title {
@@ -239,9 +246,19 @@ p {
     padding-top: 195px;
 }
 
+.title {
+    clear: both;
+    padding-bottom: 90px;
+}
+
 .title p {
     font-size: 14px;
     line-height: 20px;
+    padding-top: 10px;
+}
+
+.title h2 {
+    padding-top: 100px;
 }
 
 
@@ -340,5 +357,90 @@ p {
 
 .video--item {
     float: right;
-    width: 40%;
+    width: 45%;
+}
+
+.video--item h2 {
+    width: 400px;
+}
+
+.video--item p {
+    width: 470px;
+    padding-top: 10px;
+}
+
+.video--item_block {
+    padding-top: 60px;
+}
+
+.video--item_block img {
+    float: left;
+    margin-right: 20px;
+}
+
+.video--item_block h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.video--item_block p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-left: 50px;
+}
+
+/* 
+=====================================
+    INVESTORS BLOCK
+===================================== 
+*/
+
+.investors {
+    width: 100%;
+}
+
+.investors img:first-child {
+    padding-left: 0;
+}
+
+.investors img {
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 140px;
+    vertical-align: middle;
+}
+
+/* 
+=====================================
+    SUBSCRIBE BLOCK
+===================================== 
+*/
+
+.subscribe {
+    background-color: #16697A;
+    height: 124px;
+    width: 90%;
+    margin-left: 25px;
+}
+
+.subscribe--title {
+    float: left;
+    padding-left: 50px;   
+    width: 50%;
+    height: 60px;
+}
+
+.subscribe--title h3 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.subscribe--form {
+    float: right;
+    width: 50%;
+    height: 60px;
 }
