@@ -172,12 +172,15 @@ p {
     text-decoration: none;
     border: 1px solid #00a0c1;
     border-radius: 37px;
+
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
 .description__buttons .btn:hover {
     color: #fff;
-    background-color: #FFA62B;
     border: 1px solid #FFA62B;
+
+    box-shadow: 0 0 40px 40px #FFA62B inset;
 }
 
 /* 
@@ -213,8 +216,17 @@ p {
   filter: brightness(0) invert(1);;
 }
 
+/* third element in products */
 .product__item:last-child .icon--third {
-    margin-bottom: 49px;
+    margin-bottom: 20px;
+}
+
+.product__item:last-child h3 {
+    margin-bottom: 20px;
+}
+
+.product__item:last-child h3 {
+    margin-bottom: 35px;
 }
 
 .product__item img {
