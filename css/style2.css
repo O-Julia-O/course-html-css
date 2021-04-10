@@ -133,6 +133,8 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 45px;
+
+    height: 750px;
 }
 
 /* 
@@ -185,9 +187,11 @@ p {
 */
 
 .product {
+    position: absolute;
     overflow: auto;
-    margin-bottom: -50px;
+
     padding: 25px 0;
+    max-width: 1380px;
 }
 
 .product__item {
