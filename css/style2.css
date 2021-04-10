@@ -95,8 +95,9 @@ p {
 }
 
 .navigation__list--item:hover a {
-    transition: all 1s linear;
+    transition: border-bottom 1s linear, padding-bottom 300ms linear;
     border-bottom: 1px solid #737373;
+    padding-bottom: 3px;
 }
 
 /* 
