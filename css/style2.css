@@ -423,6 +423,7 @@ p {
     height: 124px;
     width: 90%;
     margin-left: 25px;
+    padding-top: 30px;
 }
 
 .subscribe--title {
@@ -437,6 +438,7 @@ p {
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
+    width: 260px;
 }
 
 .subscribe--form {
@@ -444,3 +446,35 @@ p {
     width: 50%;
     height: 60px;
 }
+
+.subscribe--form::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.subscribe--email {
+    width: 450px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid #E5E5E5;
+}
+
+.subscribe--btn {
+    height: 60px;
+    width: 120px;
+    color: #fff;
+    background-color: #FFA62B;
+
+    border: 1px solid #E5E5E5;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    margin-left: -4px;
+}
+
