@@ -1,33 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap');
 
-body {
+html, body {
+    font-size: 16px;
     font-family: "Montserrat";
     background-color: #FAFAFA;
     color: #252B42;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 80px;
     font-weight: 800;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 57px;
     font-weight: 700;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 32px;
     font-weight: 700;
 }
 
 p {
     color: #737373;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
 }
 
@@ -51,8 +52,8 @@ p {
 .header {
     position: absolute;
     width: 100%;
-    padding-top: 36px;
-    padding-left: 100px;
+    padding-top: 2.25rem;
+    padding-left: 6.25rem;
 }
 
 /* 
@@ -86,9 +87,9 @@ p {
 }
 
 .navigation__list--item a {
-    padding: 0 10px;
+    padding: 0 0.625rem;
     color: #737373;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 24px;
     text-decoration: none;
     border-bottom: 0px solid #fff;
@@ -96,8 +97,8 @@ p {
 
 .navigation__list--item:hover a {
     transition: border-bottom 1s linear, padding-bottom 300ms linear;
-    border-bottom: 1px solid #737373;
-    padding-bottom: 3px;
+    border-bottom: 0.06rem solid #737373;
+    padding-bottom: 0.18rem;
 }
 
 /* 
@@ -111,7 +112,7 @@ p {
     width: 20px;
     height: 20px;
     border: none;
-    margin-right: 100px;
+    margin-right: 6.25rem;
     background-color: transparent;
 }
 
@@ -119,7 +120,7 @@ p {
     display: block;
     width: 100%;
     height: 2px;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
     background-color: #000;
 }
 
@@ -131,11 +132,11 @@ p {
 
 .about {
     clear: both;
-    padding-top: 115px;
+    padding-top: 7.18rem;
     background-image: url('../img/background-Small.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 45px;
+    padding-left: 2.81rem;
 
     height: 750px;
 }
@@ -152,38 +153,38 @@ p {
 }
 
 .description p {
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 2.18rem;
+    margin-bottom: 2.18rem;
     width: 27%;
 }
 
 /* buttons */
 
 .description__buttons {
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
     overflow: auto;
 }
 
 .description__buttons .btn {
     float: left;
-    padding: 10px 36px;
-    margin-right: 10px;
+    padding: 0.62rem 2.25rem;
+    margin-right: 0.62rem;
     color: #00a0c1;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.87rem;
     line-height: 28px;
     text-decoration: none;
     border: 1px solid #00a0c1;
-    border-radius: 37px;
+    border-radius: 2.31rem;
 
     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
 .description__buttons .btn:hover {
     color: #fff;
-    border: 1px solid #FFA62B;
+    border: 0.06rem solid #FFA62B;
 
-    box-shadow: 0 0 40px 40px #FFA62B inset;
+    box-shadow: 0 0 2.5rem 2.5rem #FFA62B inset;
 }
 
 /* 
@@ -196,17 +197,17 @@ p {
     position: absolute;
     overflow: auto;
 
-    padding: 25px 0;
+    padding: 1.56rem 0;
     max-width: 1380px;
 }
 
 .product__item {
     float: left;
     width: 31%;
-    margin-right: 30px;
-    padding: 40px 70px 35px 40px;
+    margin-right: 1.87rem;
+    padding: 2.5rem 4.37rem 2.18rem 2.5rem;
     background-color: #fff;
-    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0.81rem 1.18rem rgba(0, 0, 0, 0.07);
 
     cursor: pointer;
 }
@@ -232,31 +233,31 @@ p {
 
 /* third element in products */
 .product__item:last-child .icon--third {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .product__item:last-child h3 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .product__item:last-child h3 {
-    margin-bottom: 35px;
+    margin-bottom: 2.18rem;
 }
 
 .product__item img {
     max-height: 41px;
-    margin-bottom: 15px;
+    margin-bottom: 0.93rem;
 }
 
 .product__item h3 {
-    margin: 0 0 10px;
+    margin: 0 0 0.62rem;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 32px;
 }
 
 .product__item p {
-    font-size: 14px;
+    font-size: 0.87rem;
 }
 
 /* 
@@ -266,7 +267,7 @@ p {
 */
 
 .paragraph {
-    padding: 100px 0 80px;
+    padding: 6.25rem 0 5rem;
     max-width: 1440px;
 }
 
@@ -277,22 +278,22 @@ p {
 }
 
 .characteristics {
-    padding-top: 195px;
+    padding-top: 12.18rem;
 }
 
 .title {
     clear: both;
-    padding-bottom: 90px;
+    padding-bottom: 5.62rem;
 }
 
 .title p {
-    font-size: 14px;
+    font-size: 0.87rem;
     line-height: 20px;
-    padding-top: 10px;
+    padding-top: 0.62rem;
 }
 
 .title h2 {
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 
@@ -302,9 +303,9 @@ p {
 ===================================== 
 */
 .statistic {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    padding-top: 1.87rem;
+    padding-bottom: 1.87rem;
+    margin-bottom: 1.87rem;
 }
 
 .statistic--block {
@@ -312,7 +313,7 @@ p {
     background-color: #fff;
     width: 16%;
     text-align: center;
-    padding: 30px;
+    padding: 1.87rem;
     margin-left: 10%;
 }
 
@@ -321,7 +322,7 @@ p {
 }
 
 .statistic--block p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
 }
 
@@ -338,24 +339,24 @@ p {
 .news--block {
     float: left;
     width: 17%;
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 1.25rem;
+    margin-left: 6.25rem;
     background-color: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 1.87rem;
 }
 
 .news--block p {
-    font-size: 14px;
+    font-size: 0.87rem;
     line-height: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 1.87rem;
 }
 
 .news--block .h5 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 24px;
     color: #252B42;
-    padding-bottom: 10px;
+    padding-bottom: 0.62rem;
 }
 
 /* 
@@ -367,14 +368,14 @@ p {
 .video {
     position: relative;
     float: left;
-    padding-top: 10px;
+    padding-top: 0.62rem;
 }
 
 .video--cover {
     position: absolute;
     top: 0;
     left: 0;
-    padding-top: 10px;
+    padding-top: 0.62rem;
 }
 
 .video--btn {
@@ -400,29 +401,29 @@ p {
 
 .video--item p {
     width: 470px;
-    padding-top: 10px;
+    padding-top: 0.62rem;
 }
 
 .video--item_block {
-    padding-top: 60px;
+    padding-top: 3.75rem;
 }
 
 .video--item_block img {
     float: left;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .video--item_block h5 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 24px;
 }
 
 .video--item_block p {
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 600;
     line-height: 24px;
-    padding-left: 50px;
+    padding-left: 3.12rem;
 }
 
 /* 
@@ -440,9 +441,9 @@ p {
 }
 
 .investors img {
-    padding-left: 150px;
-    padding-top: 50px;
-    padding-bottom: 140px;
+    padding-left: 9.37rem;
+    padding-top: 3.12rem;
+    padding-bottom: 8.75rem;
     vertical-align: middle;
 }
 
@@ -456,20 +457,20 @@ p {
     background-color: #16697A;
     height: 124px;
     width: 90%;
-    margin-left: 25px;
-    padding-top: 30px;
+    margin-left: 1.56rem;
+    padding-top: 1.87rem;
 }
 
 .subscribe--title {
     float: left;
-    padding-left: 50px;   
+    padding-left: 3.12rem;   
     width: 50%;
     height: 60px;
 }
 
 .subscribe--title h3 {
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 32px;
     font-weight: 700;
     width: 260px;
@@ -490,13 +491,13 @@ p {
 .subscribe--email {
     width: 450px;
     height: 60px;
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 400;
     line-height: 28px;
     
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border: 1px solid #E5E5E5;
+    border-top-left-radius: 0.31rem;
+    border-bottom-left-radius: 0.31rem;
+    border: 0.06rem solid #E5E5E5;
 }
 
 .subscribe--btn {
@@ -506,9 +507,9 @@ p {
     background-color: #FFA62B;
 
     border: 1px solid #E5E5E5;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 0.31rem;
+    border-bottom-right-radius: 0.31rem;
 
-    margin-left: -4px;
+    margin-left: -0.25rem;
 }
 
