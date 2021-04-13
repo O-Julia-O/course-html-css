@@ -455,6 +455,8 @@ p {
     width: 90%;
     margin-left: 1.56rem;
     padding-top: 1.87rem;
+
+    position: relative;
 }
 
 .subscribe--title {
@@ -509,10 +511,14 @@ p {
     margin-left: -0.25rem;
 }
 
-/* .subscibe__line {
+.subscibe__line {
+    position: absolute;
     background-color: #252B42;
     height: 80px;
-    width: 100%;
-    margin-left: -10.4375rem;
+    width: 137%;
+    margin-left: -194px;
+    margin-top: 40px;
     max-width: 1800px;
-} */
+
+    z-index: -1;
+}
