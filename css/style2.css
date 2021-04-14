@@ -533,8 +533,8 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    margin-top: 110px;
-    margin-bottom: 150px;
+    margin-top: 6.875rem;
+    margin-bottom: 9.375rem;
 }
 
 .contacts::after {
@@ -546,12 +546,12 @@ p {
 .contacts--item {
     float: left;
     background-color: #fff;
-    margin-right: 80px;
+    margin-right: 5rem;
     text-align: center;
 }
 
 .contacts--item:first-child {
-    margin-left: 60px;
+    margin-left: 3.75rem;
 }
 
 .contacts--item:last-child {
@@ -559,25 +559,25 @@ p {
 }
 
 .contacts--item>p {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     line-height: 24px;
 }
 
 .contacts--icon {
-    padding-top: 50px;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-bottom: 15px;
+    padding-top: 3.125rem;
+    padding-left: 8.125rem;
+    padding-right: 8.125rem;
+    padding-bottom: 0.9375rem;
 }
 
 /* text above buttons */
 
 .get_support {
     color: #252B42;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
     line-height: 24px;
 }
 
@@ -589,8 +589,8 @@ p {
 
 .circle {
     position: absolute;
-    margin-left: -303px;
-    margin-top: 15px;
+    margin-left: -18.9375rem;
+    margin-top: 0.9375rem;
 }
 
 /* buttons */
@@ -601,8 +601,8 @@ p {
     width: 55%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 15px;
-    margin-bottom: 50px;
+    margin-top: 0.9375rem;
+    margin-bottom: 3.125rem;
 
 }
 
@@ -610,10 +610,10 @@ p {
     display: block;
     color: #FFA62B;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 24px;
 
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
 }
 
 .contacts--item:hover {
@@ -630,10 +630,10 @@ p {
 
 .contact__line {
     background-color: #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 80px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.875rem;
+    padding-right: 5rem;
 }
 
 .contact__line::after {
@@ -644,7 +644,7 @@ p {
 
 .contact__line h3{
     /* float: left; */
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     width: 40%;
 }
 
@@ -658,12 +658,12 @@ p {
 
     background-color: #FFA62B;
 
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 
-    margin-top: -40px;
+    margin-top: -2.5rem;
 
     border: 1px solid #FFA62B;
     border-radius: 5px;
@@ -690,8 +690,8 @@ p {
 .footer {
     background-color: #16697A;
     height: 280px;
-    padding-left: 200px;
-    padding-bottom: 50px;
+    padding-left: 12.5rem;
+    padding-bottom: 3.125rem;
 }
 
 .footer::after {
@@ -706,22 +706,22 @@ p {
 }
 
 .footer--item a:first-child {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 24px;
 
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin-bottom: 1.25rem;
+    margin-top: 3.125rem;
 }
 
 .footer--item a {
     display: block;
     color: #fff;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 24px;
     font-weight: 600;
 
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .footer--item a:hover {
@@ -729,7 +729,7 @@ p {
 }
 
 .footer--item:last-child img{
-    padding-right: 10px;
+    padding-right: 0.625rem;
 }
 
 /* icons */
@@ -740,25 +740,25 @@ p {
 
 .little_circle {
     position: absolute;
-    margin-left: -32px;
-    margin-top: 5px;
+    margin-left: -2rem;
+    margin-top: 0.3125rem;
 }
 
 /* social media */
 
 .social__icons {
     width: 20%;
-    margin-top: -45px;
+    margin-top: -2.8125rem;
     float: right;
 }
 
 .social_media h6 {
     width: 40%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
 }
 
 .social--icon {
-    margin-left: 20px;
+    margin-left: 1.25rem;
     cursor: pointer;
 }
