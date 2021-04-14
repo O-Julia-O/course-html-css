@@ -517,6 +517,11 @@ p {
     margin-left: -0.25rem;
 }
 
+.subscribe--btn:hover {
+    background-color: #ca7a09;
+    transition: background-color 0.3s ease-in;
+}
+
 .subscibe__line {
     position: absolute;
     background-color: #252B42;
