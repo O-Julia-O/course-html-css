@@ -534,6 +534,13 @@ p {
     margin-right: auto;
     width: 90%;
     margin-top: 110px;
+    margin-bottom: 150px;
+}
+
+.contacts::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 .contacts--item {
@@ -607,4 +614,66 @@ p {
     line-height: 24px;
 
     padding: 10px 20px;
+}
+
+.contacts--item:hover {
+    background-color: #252B42;
+    transition: all 0.5s linear 0s;
+    transform: scaleY(1.2);
+}
+
+.contacts--item:hover :nth-child(1n) {
+    filter: brightness(0) invert(1);
+}
+
+/* contact to us */
+
+.contact__line {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 80px;
+}
+
+.contact__line::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.contact__line h3{
+    /* float: left; */
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.contact__line p{
+    float: left;
+    width: 40%;
+}
+
+.btn--contact {
+    float: right;
+
+    background-color: #FFA62B;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    margin-top: -40px;
+
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+}
+
+.btn--contact:hover {
+    background-color: #ffa220;
+    transition: background-color 0.3s ease-in;
+}
+
+.btn--contact a{
+    color: #fff;
 }
