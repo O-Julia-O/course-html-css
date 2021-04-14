@@ -677,3 +677,81 @@ p {
 .btn--contact a{
     color: #fff;
 }
+
+
+/* 
+=====================================
+    FOOTER
+===================================== 
+*/
+
+.footer {
+    background-color: #16697A;
+    height: 280px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.footer::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.footer--item {
+    float: left;
+    width: 15%;
+}
+
+.footer--item a:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.footer--item a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+}
+
+.footer--item:last-child img{
+    padding-right: 10px;
+}
+
+/* icons */
+
+.little_map {
+    position: relative;
+}
+
+.little_circle {
+    position: absolute;
+    margin-left: -32px;
+    margin-top: 5px;
+}
+
+/* social media */
+
+.social__icons {
+    width: 20%;
+    margin-top: -45px;
+    float: right;
+}
+
+.social_media h6 {
+    width: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social--icon {
+    margin-left: 20px;
+}
