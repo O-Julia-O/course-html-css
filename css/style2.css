@@ -714,13 +714,15 @@ p {
     width: 20%;
 }
 
-.footer--item a:first-child {
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 24px;
+.footer--item h6{
+    color: #fff;
 
     margin-bottom: 1.25rem;
     margin-top: 3.125rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 .footer--item a {
@@ -750,7 +752,7 @@ p {
 .little_circle {
     position: absolute;
     margin-left: -2rem;
-    margin-top: 0.3125rem;
+    margin-top: 0.4rem;
 }
 
 /* social media */
