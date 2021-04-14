@@ -216,13 +216,13 @@ p {
      background-color: #00A0C1;
     /* color: #fff; */
 
-    transition: all 0.5s linear 0s;
+    transition: all 0.2s linear 0s;
     transform: scale(1.05);
     color: #fff;
 }
 
 .product__item:hover p {
-    transition: all 0.5s linear 0s;
+    transition: all 0.3s linear 0s;
     color: #fff;
 }
 
@@ -621,6 +621,11 @@ p {
     transition: all 0.5s linear 0s;
     transform: scaleY(1.2);
 }
+
+.contacts--item:hover img {
+    transform: scaleY(0.9);
+}
+
 
 .contacts--item:hover :nth-child(1n) {
     filter: brightness(0) invert(1);
