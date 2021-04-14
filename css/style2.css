@@ -667,10 +667,12 @@ p {
 
     border: 1px solid #FFA62B;
     border-radius: 5px;
+
+    cursor: pointer;
 }
 
 .btn--contact:hover {
-    background-color: #ffa220;
+    background-color: #ca7a09;
     transition: background-color 0.3s ease-in;
 }
 
@@ -722,6 +724,10 @@ p {
     margin-bottom: 10px;
 }
 
+.footer--item a:hover {
+  text-decoration: underline;
+}
+
 .footer--item:last-child img{
     padding-right: 10px;
 }
@@ -754,4 +760,5 @@ p {
 
 .social--icon {
     margin-left: 20px;
+    cursor: pointer;
 }
