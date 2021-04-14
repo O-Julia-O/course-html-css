@@ -516,9 +516,95 @@ p {
     background-color: #252B42;
     height: 80px;
     width: 137%;
-    margin-left: -194px;
-    margin-top: 40px;
+    margin-left: -12.125rem;
+    margin-top: 2.5rem;
     max-width: 1800px;
 
     z-index: -1;
+}
+
+/* 
+=====================================
+    CONTACTS BLOCK
+===================================== 
+*/
+
+.contacts {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 110px;
+}
+
+.contacts--item {
+    float: left;
+    background-color: #fff;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.contacts--item:first-child {
+    margin-left: 60px;
+}
+
+.contacts--item:last-child {
+    margin-right: 0;
+}
+
+.contacts--item>p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.contacts--icon {
+    padding-top: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 15px;
+}
+
+/* text above buttons */
+
+.get_support {
+    color: #252B42;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+    line-height: 24px;
+}
+
+/* icon map */
+
+.map {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    margin-left: -303px;
+    margin-top: 15px;
+}
+
+/* buttons */
+
+.contacts--button {
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+    width: 55%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+}
+
+.contacts--button>a {
+    display: block;
+    color: #FFA62B;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+
+    padding: 10px 20px;
 }
