@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,75 +6,424 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indicorp</title>
     <link rel="stylesheet" href="./css/zeroingStyles.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- Header -->
+    <!-- HEADER -->
     <header class="header">
 
-        <div class="conteiner_header">
-            <!-- Logo -->
+        <div class="container">
+                <!-- LOGO -->
             <div class="logo">
-                <img src="./img/Indicorp-small.png" alt="Indicorp logo">
+                <img src="./img/Indicorp-small.png" alt="Indicorp LOGO">
             </div>
 
-            <!-- navigation -->
+            <!-- NAVIGATION -->
             <nav class="navigation">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="navigation__list">
+                    <li class="navigation__list--item"><a href="#">Home</a></li>
+                    <li class="navigation__list--item"><a href="#">Product</a></li>
+                    <li class="navigation__list--item"><a href="#">Pricing</a></li>
+                    <li class="navigation__list--item"><a href="#">Contact</a></li>
                 </ul>
             </nav>
 
-            <!-- Burger Menu -->
-            <div class="burger--menu">
-                <img src="./img/burgerMenu-small.png" alt="Menu">
-            </div>
+            <!-- BURGER MENU -->
+            <button class="burger">
+                <span class="burger__item"></span>
+                <span class="burger__item"></span>
+                <span class="burger__item"></span>
+            </button>
         </div>
 
+        <!-- header end -->
     </header>
 
-    <main>
-        <!-- rows -->
-        <div class="conteiner">
-            <div class="title">
+    <!-- MAIN -->
+    <main class="body">
+
+        <!-- SECTION ABOUT -->
+        <section class="about container">
+                <!-- DESCRIPTION -->
+            <article class="description">
                 <h1>Empower your business</h1>
-                <h4>We know how large objects will act, but things on a small scale.</h4>
 
-                <!-- Buttons -->
+                <p>
+                    We know how large objects will act, but things on a small scale.
+                </p>
 
-                <div class="btn get_quote--btn"><a href="#">Get Quote Now</a></div>
-                <div class="btn learn_more--btn"><a href="#">Learn More</a></div>
+                <div class="description__buttons">
+                    <a class="btn" href="#">Get Quote Now</a>
+                    <a class="btn" href="#">Learn More</a>
+                </div>
+
+                <!-- end article -->
+            </article>
+
+            <!-- PRODUCTS -->
+            <article class="product">
+
+                <div class="product__item">
+                    <img src="./img/icons/svg/suitcase.svg" class="icon" alt="Icon">
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        We focus on ergonomics and 
+                        meeting you where you work. 
+                    </p>
+                </div>
+
+                <div class="product__item">
+                    <img class="icon" src="./img/icons/svg/shop.svg" alt="Icon">
+                    <h3>National top 50 firms</h3>
+                    <p>
+                        Just type what's on your mind 
+                        and we'll get you there.
+                    </p>
+                </div>
+
+                <div class="product__item">
+                    <img class="icon icon--third" src="./img/icons/svg/column.svg" alt="Icon">
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        the quick fox jumps over the 
+                        lazy dog
+                    </p>
+                </div>
+            </div>
+
+                <!-- end article -->
+            </article>
+            <!-- end section -->
+        </section>
+
+        <!-- SECTION "WHY CHOOSE US" -->
+        <section class="paragraph container">
+            <article class="title">
+
+                <h2>WHY CHOOSE US</h2>
+
+                <p>
+                    Problems trying to resolve the conflict between the two major realms
+                    of Classical physics: Newtonian mechanics
+                </p>
+
+                <!-- end article -->
+            </article>
+
+            <!-- STATISTIC -->
+            <article class="statistic"> 
+                <div class="container">
+                    <div class="statistic--block">
+                        <img src="./img/icons/svg/clarity_users-line.svg" alt="Photo">
+                        <h2>3K</h2>
+                        <p>CASES DONE</p>
+                    </div>
+                    <div class="statistic--block">
+                        <img src="./img/icons/svg/line_sphere.svg" alt="Photo">
+                        <h2>45</h2>
+                        <p>HAPPY CUSTOMERS</p>
+                    </div>
+                    <div class="statistic--block">
+                        <img src="./img/icons/svg/medal.svg" alt="Photo">
+                        <h2>12+</h2>
+                        <p>AWARD WINNING</p>
+                    </div>
+                    <div class="statistic--block">
+                        <img src="./img/icons/svg/suitcase.svg" alt="Photo">
+                        <h2>1.5K</h2>
+                        <p>CASES DONE</p>
+                    </div>
+                    <!-- end div -->
+                </div>
+                <!-- end section -->
+            </article>
+            <!-- end section -->
+        </section>
+
+        <!-- SECTION PRACTICE ADVICE -->
+        <section class="paragraph container">
+            <article class="title">
+
+                <h2>Practice Advice</h2>
+
+                <p>
+                    Problems trying to resolve the conflict between 
+                    the two major realms of Classical physics: Newtonian mechanics 
+                </p>
+
+                <!-- end article -->
+            </article>
+
+            <article>
+                    <div class="news--block">
+                        <p class="h5">A single source of truth</p>
+                        <p>
+                            Newton thought that 
+                            light was made up of 
+                            particles, but then it 
+                            was discovered 
+                        </p>
+                        <img src="./img/newBlock/w_n_ph.png">
+                    </div>
+
+                    <div class="news--block">
+                        <p class="h5">Fastest way to organize</p>
+                        <p>
+                            “Quantum mechanics” 
+                            is the description of the 
+                            behaviour of matter
+                        </p>
+                        <img src="./img/newBlock/two-w-lap.png">
+                    </div>
+
+                    <div class="news--block">
+                        <p class="h5">Fastest way to take action</p>
+                        <p>
+                            They describe a 
+                            universe consisting of 
+                            bodies moving
+                        </p>
+                        <img src="./img/newBlock/getshit.png">
+                    </div>
+
+                    <div class="news--block">
+                        <p class="h5">Work better together</p>
+                        <p>
+                            They describe a 
+                            universe consisting of 
+                            bodies moving
+                        </p>
+                        <img src="./img/newBlock/lap-cha.png">
+                    </div>
+
+                <!-- end article -->
+            </article>
+            <!-- end section -->
+        </section>
+
+        <!-- SECTION WITH VIDEO -->
+        <section class="paragraph container">
+            <article class="title">
+
+                <h2>We are providing best business service.</h2>
+
+                <p>
+                    Problems trying to resolve the conflict between 
+                    the two major realms of Classical physics: Newtonian mechanics  
+                </p>
+
+                <!-- end article -->
+            </article>
+
+            <article>
+                <div>
+                    <div class="video">
+                        <img class="" src="./img/video-item-icon/cover.png" alt="video">
+                        <img class="video--cover" src="./img/video-item-icon/video.png" alt="video cover">
+                        <img class="video--btn" src="./img/video-item-icon/btn.png" alt="video button">
+                    </div>
+                    <div class="video--item">
+                        <h2>Most trusted in our field</h2>
+                        <p>
+                            Most calendars are designed for teams. Slate 
+                            is designed for freelancers who want a 
+                            simple way to plan their schedule.
+                        </p>
+                    </div>
+                    <div class="video--item">
+                        <div class="video--item_block">
+                            <img src="./img/video-item-icon/people.svg" alt="icon">
+                            <h5>the quick fox jumps over the lazy dog</h5>
+                            <p>Things on a very small scale ...</p>
+                        </div>
+                        <div class="video--item_block">
+                            <img src="./img/video-item-icon/speed.svg" alt="icon">
+                            <h5>the quick fox jumps over the lazy dog</h5>
+                            <p>Things on a very small scale ...</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end article -->
+            </article>
+            <!-- end article -->
+        </section>
+
+        <!-- SECTION WITH INVESTORS -->
+        <section class="paragraph container">
+            <article class="investors">
+                <img src="./img/investors_block/hooli.svg" alt="icon">
+                <img src="./img/investors_block/lua.svg" alt="icon">
+                <img src="./img/investors_block/tick.svg" alt="icon">
+                <img src="./img/investors_block/stripe.svg" alt="icon">
+                <img src="./img/investors_block/aws.svg" alt="icon">
+                <img src="./img/investors_block/face.svg" alt="icon">
+                <!-- end article -->
+            </article>
+
+            <!-- subscribe block -->
+            <article class="subscribe">
+                <div class="subscribe--title">
+                    <h3>Subscribe For Latest Newsletter</h3>
+                </div>
+                
+                <div class="subscribe--form">
+                    <form action="#" method="post">
+                        <input class="subscribe--email" type="email" name="email" id="email" placeholder="Your Email">
+                        <button class="subscribe--btn" type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="subscibe__line">
+
+                </div>
+            </article>
+            <!-- end section -->
+        </section>
+
+        <!-- SECTION WITH GET IN TOUCH -->
+        <section class="paragraph container"> 
+            <article class="title">
+
+                <h2>Get In Touch</h2>
+
+                <p>
+                    Problems trying to resolve the conflict between 
+                    the two major realms of Classical physics: Newtonian mechanics   
+                </p>
+
+                <!-- end article -->
+            </article>
+
+            <article class="contacts">
+                <div class="contacts--item">
+                    <img class="contacts--icon" src="./img/getintouch/phone.svg" alt="icon">
+                    <p>georgia.young@example.com</p>
+                    <p>georgia.young@ple.com</p>
+                    <p class="get_support">Get Support</p>
+
+                    <!-- button -->
+                    <div class="contacts--button">
+                        <a href="#">Submit Request</a>
+                    </div>
+                </div>
+                <div class="contacts--item">
+                    <img class="contacts--icon map" src="./img/getintouch/big_map.svg" alt="icon">
+                    <img class="contacts--icon circle" src="./img/getintouch/circle.svg" alt="icon">
+                    <p>georgia.young@example.com</p>
+                    <p>georgia.young@ple.com</p>
+                    <p class="get_support">Get Support</p>
+
+                    <!-- button -->
+                    <div class="contacts--button">
+                        <a href="#">Submit Request</a>
+                    </div>
+                </div>
+                <div class="contacts--item">
+                    <img class="contacts--icon" src="./img/getintouch/telegram.svg" alt="icon">
+                    <p>georgia.young@example.com</p>
+                    <p>georgia.young@ple.com</p>
+                    <p class="get_support">Get Support</p>
+
+                    <!-- button -->
+                    <div class="contacts--button">
+                        <a href="#">Submit Request</a>
+                    </div>
+                </div>
+                <!-- end article -->
+            </article>
+
+            <article class="contact__line">
+                <h3>Consulting Agency For Your Business</h3>
+                <p>the quick fox jumps over the lazy dog</p>
+                <div class="btn--contact">
+                    <a href="#">Contact Us</a>
+                </div>
+            </article>
+            <!-- end section -->
+        </section>
+
+        <!-- main end -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer"> 
+            <!-- Company Info -->
+            <div class="footer--item">
+                <ul>
+                    <h6>Company Info</h6>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Carrier</a></li>
+                    <li><a href="#">We are hiring</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal -->
+            <div class="footer--item">
+                <ul>
+                    <h6>Legal</h6>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Carrier</a></li>
+                    <li><a href="#">We are hiring</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Features -->
+            <div class="footer--item">
+                <ul>
+                    <h6 href="#">Features</h6>
+                    <li><a href="#">Business Marketing</a></li>
+                    <li><a href="#">User Analytic</a></li>
+                    <li><a href="#">Live Chat</a></li>
+                    <li><a href="#">Unlimited Support</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="footer--item">
+               <ul>
+                <h6>Resources</h6>
+                <li><a href="#">IOS & Android</a></li>
+                <li><a href="#">Watch a Demo</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">API</a></li>
+               </ul>
+            </div>
+
+            <!-- Get In Touch -->
+            <div class="footer--item">
+                <ul>
+                    <h6 href="#">Get In Touch</h6>
+                <li>
+                    <a href="tel:(480) 555-0103"><img src="./img/footer/phone.svg" alt="icon">(480) 555-0103</a>
+                </li>
+                <li>
+                    <a href="https://goo.gl/maps/XM76vT3h1zBxG2as9"><img class="little_map" src="./img/footer/map.svg" alt="icon"> <img class="little_circle" src="./img/footer/circle.svg" alt=""> 4517 Washington Ave.</a>
+                </li>
+                <li>
+                    <a href="mailto:debra.holt@example.com"><img src="./img/footer/telegram.svg" alt="icon">debra.holt@example.com</a>
+                </li>
+                </ul>
+            </div>
+
+            <!-- end div links-->
+        </div>
+
+        <!-- social media -->
+        <div class="social_media container">
+            <h6>Made With Love By Figmaland All Right Reserved</h6>
+            <div class="social__icons">
+                <a href="https://www.messenger.com/t/FaceBookName"><img class="social--icon" src="./img/social_media/fb.svg" alt="icon"></a>
+                <a href="https://www.instagram.com/InstaName" target="_blank"><img class="social--icon" src="./img/social_media/inst.svg" alt="icon"></a>
+                <a href="https://twitter.com/intent/tweet?text=MySiteOnTwitter" rel="nofollow" target="_blank"><img class="social--icon" src="./img/social_media/twit.svg" alt="icon"></a>
+                <a href="https://www.youtube.com/c/VladilenMinin/featured"><img class="social--icon" src="./img/social_media/ytb.svg" alt="icon"></a>
             </div>
         </div>
-
-        <!-- Three blocks about marketing -->
-        <div class="row">
-
-            <section class="blok_information">
-                <img class="icon" src="./img/iconsforheader/suitcase_small.png" alt="Digital Marketing Icon">
-                <h3>Digital Marketing</h3>
-                <p>We focus on ergonomics and meeting you where you work</p>
-            </section>
-
-            <section class="blok_information">
-                <img class="icon" src="./img/iconsforheader/shop_small.png" alt="National top 50 firms Icon">
-                <h3>National top 50 firms</h3>
-                <p>Just type what's on your mind and we'll get you there.</p>
-            </section>
-
-            <section class="blok_information">
-                <img class="icon" src="./img/iconsforheader/twoCol_small.png" alt="Digital Marketing Icon">
-                <h3>Digital Marketing</h3>
-                <p>The quick fox jumps over the lazy dog.</p>
-            </section>
-        </div>
-
-        <div class="background">
-            <img src="./img/background-Small.png" alt="Background Image With Business Woman">
-        </div>
-    </main>
+        <!-- end footer -->
+    </footer>
 </body>
 </html>
+
+
